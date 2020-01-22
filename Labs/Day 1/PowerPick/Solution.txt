@@ -1,0 +1,19 @@
+
+Find the location of System.Management.Automation.dll:
+	PS C:\> $DLLLocation = [PSObject].Assembly.Location
+
+
+Find the location for csc.exe:
+	PS C:\> $CSCloc = [System.Runtime.InteropServices.RuntimeEnvironment]::GetRuntimeDirectory() + "csc.exe"
+
+
+Save off the current desktop location:
+	PS C:\> $Desktop = "$ENV:USERPROFILE\Desktop\"
+
+
+Compile with the correct flags:
+	PS C:\> . $CSCloc /r:$DLLLocation /unsafe /platform:anycpu /target:winexe /out:"$Desktop\PowerPick.exe" "$Desktop\PowerPick.cs"
+
+
+Launch:
+	. "$Desktop\PowerPick.exe"

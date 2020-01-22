@@ -1,0 +1,1 @@
+Get-Date | Out-File $Env:USERPROFILE\Desktop\owned.txt -Append
