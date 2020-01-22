@@ -1,9 +1,9 @@
 # Adversary Tactics: PowerShell
 __This course material is no longer maintained and is being provided as-is.__
 
-SpecterOps recently decommisioned our PowerShell course and rather than letting it collect dust, we wanted to offer it up to the community for free in the spirit of our [commitment to transparency](https://posts.specterops.io/a-push-toward-transparency-c385a0dd1e34).
+SpecterOps recently decommissioned our PowerShell course and rather than letting it collect dust, we wanted to offer it up to the community for free in the spirit of our [commitment to transparency](https://posts.specterops.io/a-push-toward-transparency-c385a0dd1e34).
 
-We are extremely grateful for all of our students who were able to attend the course in person. Those students not only received this material, but they benefitted from an extensive lab environment, live intructor demos, and individualized instructor feedback.
+We are extremely grateful for all of our students who were able to attend the course in person. Those students not only received this material, but they benefited from an extensive lab environment, live instructor demos, and individualized instructor feedback.
 
 ## Reproduction and Redistribution
 All code is licensed under the GPLv3 license. We kindly ask that if you choose to reproduce or redistribute any of this material, that you credit SpecterOps accordingly.
